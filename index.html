@@ -1,0 +1,164 @@
+<!Doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pomelo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vtl7afv.css">
+    <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <script src="scriptName.js" defer></script>
+                
+</head>
+
+<body>
+    <header>
+       
+        <div class="container">
+                    <nav> 	
+                        <label for="toggle">☰</label>
+                        <input type="checkbox" id="toggle">
+                        <ul class="menu">
+                            <li class="logo"><img src="image/logo.png" alt="Logo de Pomelo">Pomelo</li>
+                            <li><a href="">Prestations</a></li>
+                            <li><a href="">Formations</a></li>
+                            <li><a href="">Projets</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                  
+        </div>
+            <div class=" banner container">
+
+                    <h1>Une agence web<br> haute en couleurs,<br><img class="traits-rose" src="image/traits rose.png" alt="">et pleine d'énergie.</h1>
+                    <p>Ajoutez une note sucrée à votre communication.</p>
+                    <button type="button">Découvre notre univers</button>
+            </div>
+            
+            
+    </header>
+    <section class="approche container">
+        <div class="left">
+            <img class="groupe" src="image/people-working-as-team-company 1people-working-as-team-company.png" alt="un groupe de personne qui sourit">
+        </div>
+        <div class="right">
+            <h2>Une approche collaborative,<br> fraiche et pétillante<img class="traitsroses3" src="image/2traitsrose.png" alt="" srcset=""></h2>
+            <p>Agence web Lyonnaise, nous sommes spécialisé dans la <br> conception, le développement applicatif et les formations.<br> Notre équipe est passionné d’interfaces efficaces et coloré.<br> Pomelo est une agence portée sur le partage de <br>connaissance
+                et le travail colaboratif</p>
+            <a href="">Jette un oeil à nos l’équipe </a></div>
+    </section>
+
+    <section class="projet container">
+        <div class="left">
+            <h3>Un zeste de passion</h3>
+            <h2>A chaque projet,un besoin <br>différent.<img class="traitsroses2" src="image/2traitsrose.png" alt=""></h2>
+            <p>Chaque projet est différent, et nécessite une approche <br> ciblé. Grâce à la richesse des compétences et à la passion de notre équipe,vos idées prennent vie. Oui c'est le slogan d'une enseigne de bricolage</p>
+            <a href="">Nos Prestations plus en détail.</a>
+        </div>
+        <div class="right">
+            <img class="autreforme" src="image/autreforme.png">
+            <ul>
+                <li> Identité visuel</li>
+                <li> Développement applicatif</li>
+                <li> Site web</li>
+                <li> Formation</li>
+            </ul>
+            <img class="bouclerose" src="image/boucle rose.png">
+        
+            <div class="logo2">Logo</div>
+            <div class="fullStack">Full Stack</div>
+            <div class="animations">Animations</div>
+            <div class="applicationmobile">Application mobile</div>
+            <div class="seo">SEO</div>
+        </div>
+        
+    </section>
+
+    <img class="bouclebleu" src="image/boucle bleu.png">
+    <section class="section4 container-fluid">
+        
+        <div class="nosbébés">
+            
+            <h3>Une approche fruitée</h3>
+            <h2> Nos Bébés</h2>
+            <p> En 4 ans nous avons eu l'occasion de mettre les mains dans de <br> super projets, voici pêle-mêle une sélection aux petits oignons.</p>
+        </div>
+    
+        <div class="bouton">
+            <button class="afficher">Tout</button>
+            <button class="afficher">Identités Visuelles</button>
+            <button class="afficher">Sites web</button>
+            <button class="afficher">Applications</button> 
+            <button class="afficher">Formations</button>
+</div>
+        <div class="mySlides">
+            <img class= "item" id="identite" src="image/verre de citron.png">
+            <img class="item"  id="sitesweb" src="image/citron.png">
+            <img class= "item" id="app" src="image/bouquet de fleur.png">
+            <img  class="item"id="formation"src="image/fleur rose.png">
+</div>
+    
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="formulaire container">
+        <div class=" titreformulaire">
+            <h3>Relions nous</h3>
+            <h2>Un projet?</h2>
+            <img class="bouclejaune2" src="image/bouclejaune2.png">
+
+        </div>
+        <form method="post" action="traitement.php">
+            <p class="formu">Hey ! 👋 </p>
+            <p class="formu">Je m'appelle<input type="text" name="nom prénom" size="30" /><br />
+            </p>
+            <p class="formu">Je vous contacte aujourd'hui pour
+                <select name="type de projet">
+                <option value="">...choix du type de projet...</option>
+                <option value="identitévisuelle">Identité visuelle</option>
+                <option value="développementapplicatif">Développement applicatif</option>
+                <option value="siteweb">Site web</option>
+                <option value="formations">Formation</option></select>
+            </p>
+            <p class="formu">Un peu de détails?</p>
+            <p><textarea name="comments" rows="5" cols="40" placeholder="Mon contexte, mes besoins..."></textarea>
+                <p class="formu">Vous pouvez me joindre via ce mail : <input type="email" name="mail" size="30" /><br></p>
+                <p class="formu">ou à ce numéro :<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></p>
+                <p class="button2"><input type="submit" value="Envoyer le message" /></p>
+        </form>
+    </section>
+
+    <footer>
+        
+            <div class="footerleft">
+            <p class="text">Eleifend ultrices morbi lobortis enim adipiscing duis ac ac amet. A nunc ullamcorper diam ut urna amet, blandit. Massa tempor ac velit leo amet dignissim commodo. Non blandit pharetra amet a a magna et. Viverra purus, pellentesque in imperdiet.
+            </p>
+            </div>
+            <div class="center">
+                <ul class="menufooter">
+                <li>L’équipe</li>
+                <li>Formations</li>
+                <li>Projets</li>
+                <li>Prestations</li>
+                </ul>
+            <hr width="200" color="#FECC66">
+            <ul class="menu2footer">
+                <li>Politique de confidentialité</li>
+                        <li>Mentions légales</li>
+                </ul>
+            </div>
+            <div class="footerright">
+                <img class="logofooter" src="image/logo footer.png">
+                <p>Pomelo <br>1 rue de la société <br>69000 Ville</p>
+                <img class="réseausociaux" src="image/réseau.png">
+            </div>
+    </footer>
+
+    
+</body>
+
+</html>
